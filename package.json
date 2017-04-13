@@ -36,6 +36,7 @@
     "typescript-eslint-parser": "git://github.com/eslint/typescript-eslint-parser.git#bfb1506c48b625871ffeb67dbec7941d460f8941"
   },
   "scripts": {
+    "start": "node app",
     "test": "jest",
     "format": "./bin/prettier.js --write",
     "format:single": "npm run format -- src/printer.js",
